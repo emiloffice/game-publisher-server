@@ -3,8 +3,8 @@ branch-defaults:
     environment: GamePublish-env
 environment-defaults:
   GamePublish-env:
-    branch: master
-    repository: origin
+    branch: null
+    repository: null
 global:
   application_name: GamePublish
   default_ec2_keyname: null

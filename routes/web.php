@@ -27,7 +27,7 @@ $api->version('v1', function ($api) {
         $api->any('users/{id}','App\Api\v1\Controllers\UserController@show' );
         $api->any('upload','App\Api\v1\Controllers\UploadController@index' );
         $api->any('upload-img','App\Api\v1\Controllers\UploadController@img' );
-        $api->post('create-game','App\Api\v1\Controllers\GameController@store' );
+        $api->any('create-game','App\Api\v1\Controllers\GameController@store' );
         $api->post('update-game/{id}','App\Api\v1\Controllers\GameController@update' );
     });
 

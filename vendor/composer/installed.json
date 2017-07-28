@@ -3792,5 +3792,482 @@
             "laravel",
             "restful"
         ]
+    },
+    {
+        "name": "doctrine/collections",
+        "version": "v1.4.0",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/collections.git",
+            "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/doctrine/collections/1a4fb7e902202c33cce8c55989b945612943c2ba.zip",
+            "reference": "1a4fb7e902202c33cce8c55989b945612943c2ba",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.6 || ^7.0"
+        },
+        "require-dev": {
+            "doctrine/coding-standard": "~0.1@dev",
+            "phpunit/phpunit": "^5.7"
+        },
+        "time": "2017-01-03T10:49:41+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\Common\\Collections\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Collections Abstraction library",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "array",
+            "collections",
+            "iterator"
+        ]
+    },
+    {
+        "name": "doctrine/cache",
+        "version": "v1.6.2",
+        "version_normalized": "1.6.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/cache.git",
+            "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/doctrine/cache/eb152c5100571c7a45470ff2a35095ab3f3b900b.zip",
+            "reference": "eb152c5100571c7a45470ff2a35095ab3f3b900b",
+            "shasum": ""
+        },
+        "require": {
+            "php": "~5.5|~7.0"
+        },
+        "conflict": {
+            "doctrine/common": ">2.2,<2.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8|~5.0",
+            "predis/predis": "~1.0",
+            "satooshi/php-coveralls": "~0.6"
+        },
+        "time": "2017-07-22T12:49:21+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Caching library offering an object-oriented API for many cache backends",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "cache",
+            "caching"
+        ]
+    },
+    {
+        "name": "doctrine/common",
+        "version": "v2.7.3",
+        "version_normalized": "2.7.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/common.git",
+            "reference": "4acb8f89626baafede6ee5475bc5844096eba8a9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/doctrine/common/4acb8f89626baafede6ee5475bc5844096eba8a9.zip",
+            "reference": "4acb8f89626baafede6ee5475bc5844096eba8a9",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/annotations": "1.*",
+            "doctrine/cache": "1.*",
+            "doctrine/collections": "1.*",
+            "doctrine/inflector": "1.*",
+            "doctrine/lexer": "1.*",
+            "php": "~5.6|~7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.4.6"
+        },
+        "time": "2017-07-22T08:35:12+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.7.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\": "lib/Doctrine/Common"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Common Library for Doctrine projects",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "annotations",
+            "collections",
+            "eventmanager",
+            "persistence",
+            "spl"
+        ]
+    },
+    {
+        "name": "doctrine/dbal",
+        "version": "v2.5.13",
+        "version_normalized": "2.5.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/dbal.git",
+            "reference": "729340d8d1eec8f01bff708e12e449a3415af873"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/doctrine/dbal/729340d8d1eec8f01bff708e12e449a3415af873.zip",
+            "reference": "729340d8d1eec8f01bff708e12e449a3415af873",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/common": ">=2.4,<2.8-dev",
+            "php": ">=5.3.2"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "4.*",
+            "symfony/console": "2.*||^3.0"
+        },
+        "suggest": {
+            "symfony/console": "For helpful console commands such as SQL execution and import of files."
+        },
+        "time": "2017-07-22T20:44:48+00:00",
+        "bin": [
+            "bin/doctrine-dbal"
+        ],
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.5.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Doctrine\\DBAL\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            }
+        ],
+        "description": "Database Abstraction Layer",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "database",
+            "dbal",
+            "persistence",
+            "queryobject"
+        ]
+    },
+    {
+        "name": "league/event",
+        "version": "2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/event.git",
+            "reference": "e4bfc88dbcb60c8d8a2939a71f9813e141bbe4cd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/thephpleague/event/e4bfc88dbcb60c8d8a2939a71f9813e141bbe4cd.zip",
+            "reference": "e4bfc88dbcb60c8d8a2939a71f9813e141bbe4cd",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "henrikbjorn/phpspec-code-coverage": "~1.0.1",
+            "phpspec/phpspec": "~2.0.0"
+        },
+        "time": "2015-05-21T12:24:47+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\Event\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Frank de Jonge",
+                "email": "info@frenky.net"
+            }
+        ],
+        "description": "Event package",
+        "keywords": [
+            "emitter",
+            "event",
+            "listener"
+        ]
+    },
+    {
+        "name": "league/oauth2-server",
+        "version": "4.1.6",
+        "version_normalized": "4.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/oauth2-server.git",
+            "reference": "3bec591393b1cc6a3fc02c94d18262e4ffad2e4f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/thephpleague/oauth2-server/3bec591393b1cc6a3fc02c94d18262e4ffad2e4f.zip",
+            "reference": "3bec591393b1cc6a3fc02c94d18262e4ffad2e4f",
+            "shasum": ""
+        },
+        "require": {
+            "league/event": "~2.1",
+            "php": ">=5.4.0",
+            "symfony/http-foundation": "~2.4|~3.0"
+        },
+        "replace": {
+            "league/oauth2server": "*",
+            "lncd/oauth2": "*"
+        },
+        "require-dev": {
+            "mockery/mockery": "0.9.*",
+            "phpunit/phpunit": "4.3.*"
+        },
+        "time": "2016-09-13T13:42:53+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\OAuth2\\Server\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alex Bilbie",
+                "email": "hello@alexbilbie.com",
+                "homepage": "http://www.alexbilbie.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "A lightweight and powerful OAuth 2.0 authorization and resource server library with support for all the core specification grants. This library will allow you to secure your API with OAuth and allow your applications users to approve apps that want to access their data from your API.",
+        "homepage": "http://oauth2.thephpleague.com/",
+        "keywords": [
+            "Authentication",
+            "api",
+            "auth",
+            "authorisation",
+            "authorization",
+            "oauth",
+            "oauth 2",
+            "oauth 2.0",
+            "oauth2",
+            "protect",
+            "resource",
+            "secure",
+            "server"
+        ]
+    },
+    {
+        "name": "lucadegasperi/oauth2-server-laravel",
+        "version": "5.2.1",
+        "version_normalized": "5.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lucadegasperi/oauth2-server-laravel.git",
+            "reference": "b884f6030ce562dc21838e408371b5e942a3e967"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/lucadegasperi/oauth2-server-laravel/b884f6030ce562dc21838e408371b5e942a3e967.zip",
+            "reference": "b884f6030ce562dc21838e408371b5e942a3e967",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/config": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+            "illuminate/console": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+            "illuminate/contracts": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+            "illuminate/database": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+            "illuminate/http": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+            "illuminate/support": "5.1.* || 5.2.* || 5.3.* || 5.4.*",
+            "league/oauth2-server": "4.1.*",
+            "php": ">=5.5.9"
+        },
+        "require-dev": {
+            "henrikbjorn/phpspec-code-coverage": "^1.0",
+            "mockery/mockery": "^0.9.4",
+            "orchestra/testbench": "3.1.* || 3.2.*",
+            "phpspec/phpspec": "^2.2",
+            "phpunit/phpunit": "^4.8 || ^5.0"
+        },
+        "time": "2017-03-13T17:10:33+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "5.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "LucaDegasperi\\OAuth2Server\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Luca Degasperi",
+                "email": "packages@lucadegasperi.com"
+            },
+            {
+                "name": "Vincent Klaiber",
+                "email": "hello@vinkla.com"
+            }
+        ],
+        "description": "An OAuth 2.0 bridge for Laravel and Lumen",
+        "keywords": [
+            "api",
+            "laravel",
+            "lumen",
+            "oauth",
+            "oauth2",
+            "server"
+        ],
+        "abandoned": "laravel/passport"
     }
 ]
