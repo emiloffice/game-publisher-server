@@ -18,6 +18,7 @@ Route::any('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/test', 'TestController@index')->name('test');
 
 $api = app('Dingo\Api\Routing\Router');
 $api->version('v1', function ($api) {
